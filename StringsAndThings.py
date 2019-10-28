@@ -55,25 +55,12 @@ if "y" in name:
 else:
     print("y" not in name)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Character functions
 
 print(chr(75))
 print(ord('&'))
+
+from mapper import *
+print(letterToIndex('M'))
+
+print(indexToLetter(24))

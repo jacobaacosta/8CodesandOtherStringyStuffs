@@ -1,4 +1,4 @@
-def LetterToIndex(letter):
+def letterToIndex(letter):
     from string import ascii_lowercase
     alphabet = ascii_lowercase + ' '
     idx = alphabet.find(letter)
